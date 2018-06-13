@@ -1,0 +1,12 @@
+{
+    name: "Correlation matrix",
+    types: ["correlation_dataset"],
+    classRef: correlLoop,
+    keyMap: {
+        "drag": "Zoom on a rectangular area",
+        "double click": "Reset zoom",
+        "hover": "Show data tooltip",
+        "click": "focus on a couple of variables"
+    },
+    desc: "Displays the correlation coefficient between couples of variables"
+}
